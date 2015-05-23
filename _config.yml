@@ -1,0 +1,26 @@
+# Dependencies
+markdown:            redcarpet
+highlighter:         pygments
+
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               Bobby McDonnell
+tagline:             "I'll solve your math problem."
+description:         "You're in Bobby's world!"
+url:                 http://rmcdonnell.github.io
+baseurl:             /
+paginate:            5
+
+# About/contact
+author:
+  name:              Bobby McDonnell
+  url:              
+  email:             rmcdonnell1990@icloud.com
+
+# Custom vars
+version:             1.0.0

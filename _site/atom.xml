@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Bobby McDonnell</title>
+ <link href="http://rmcdonnell.github.io/atom.xml" rel="self"/>
+ <link href="http://rmcdonnell.github.io/"/>
+ <updated>2015-05-23T15:22:54-04:00</updated>
+ <id>http://rmcdonnell.github.io</id>
+ <author>
+   <name>Bobby McDonnell</name>
+   <email>rmcdonnell1990@icloud.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>First Post - How I made the blog</title>
+   <link href="http://rmcdonnell.github.io/2015/03/15/first-post/"/>
+   <updated>2015-03-15T00:00:00-04:00</updated>
+   <id>http://rmcdonnell.github.io/2015/03/15/first-post</id>
+   <content type="html">&lt;p&gt;The blog is served using &lt;a href=&quot;https://pages.github.com/&quot;&gt;github pages&lt;/a&gt;. It&amp;#39;s
+been created using &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;jekyll&lt;/a&gt;. There are other choices
+that seem good like &lt;a href=&quot;http://docs.getpelican.com/en/3.5.0/&quot;&gt;pelican&lt;/a&gt;. Using
+jekyll, I also added &lt;a href=&quot;http://getpoole.com/&quot;&gt;poole&lt;/a&gt; to help with the setup
+and &lt;a href=&quot;http://lanyon.getpoole.com/&quot;&gt;lanyon&lt;/a&gt;, an unassuming jekyll theme.&lt;/p&gt;
+
+&lt;p&gt;To install jekyll using &lt;a href=&quot;https://getfedora.org/&quot;&gt;Fedora 21&lt;/a&gt;, I used the
+following commands. Note that this approach will seem a little wonky
+because I was trying to also work around a &lt;a href=&quot;https://bugzilla.redhat.com/show_bug.cgi?id=1174128&quot;&gt;jruby issue with fedora&lt;/a&gt;. I&amp;#39;m not saying this is
+the best way, it&amp;#39;s just what worked for me.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;sudo yum install jruby
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;sudo yum remove gem
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;sudo yum install gem
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;sudo yum install ruby-devel
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;gem install jekyll&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Once the install has successfully completed, it&amp;#39;s time to create a
+new project. I did this by simply cloning the &lt;a href=&quot;https://github.com/poole/lanyon&quot;&gt;lanyon github repo&lt;/a&gt;. I added the lanyon repository as &lt;a href=&quot;https://help.github.com/articles/syncing-a-fork/&quot;&gt;upstream&lt;/a&gt; using git; my github
+pages repo was added as the origin.&lt;/p&gt;
+
+&lt;p&gt;After this initial setup, I just made smaller changes to fit my personal
+preferences.&lt;/p&gt;
+
+&lt;p&gt;Thanks Ty!&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>
