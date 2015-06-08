@@ -4,7 +4,7 @@ title: R
 ---
 
 
-<img src="/images/RStudio-Ball.png" alt="Drawing" style="width: 200px; float:center"/>
+<img src="/images/RStudio-Ball.png" alt="Drawing" style="width:200px;float:center;"/>
 
 I'm Bobby McDonnell. I like math, science, and coding. I'm also a massive cartoon fanatic. I never get tired of watching a rerun episode of the Simpson's or South Park. 
 
