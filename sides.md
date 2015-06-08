@@ -3,7 +3,8 @@ layout: page
 title: R
 ---
 
-![Bobby's Suit](./images/RStudio-Ball.png =100x20)
+
+<img src="/images/RStudio-Ball.png" alt="Drawing" style="width: 200px;"/>
 
 I'm Bobby McDonnell. I like math, science, and coding. I'm also a massive cartoon fanatic. I never get tired of watching a rerun episode of the Simpson's or South Park. 
 
