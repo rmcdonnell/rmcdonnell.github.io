@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: R
 ---
 ![Bobby's Suit](/images/RStudio-Ball.png)
 
